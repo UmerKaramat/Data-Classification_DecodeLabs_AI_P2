@@ -1,45 +1,78 @@
-# Data Classification Using AI
+# Iris Flower Classification Using K-Nearest Neighbors (KNN)
 
 ## Overview
 
-This project demonstrates a basic machine learning classification workflow using the Iris dataset and the K-Nearest Neighbors (KNN) algorithm.
+This project implements a machine learning classification model using the Iris dataset and the K-Nearest Neighbors (KNN) algorithm.
+
+The objective is to classify iris flowers into one of three species based on their physical measurements.
 
 ## Features
 
 * Load and explore the Iris dataset
 * Split data into training and testing sets
-* Perform feature scaling using StandardScaler
-* Train a K-Nearest Neighbors classifier
-* Generate predictions on test data
-* Evaluate model performance using:
-
-  * Accuracy Score
-  * Confusion Matrix
-  * Classification Report
+* Feature scaling using StandardScaler
+* K-Nearest Neighbors (KNN) classification
+* Model evaluation using multiple metrics
+* Confusion Matrix visualization
+* Performance Metrics visualization
 
 ## Technologies Used
 
 * Python
 * Scikit-Learn
+* NumPy
+* Matplotlib
 
 ## Dataset
 
 The project uses the built-in Iris dataset available in Scikit-Learn.
 
-## How to Run
+The dataset contains:
 
-1. Install dependencies:
+* 150 samples
+* 4 features
 
-pip install scikit-learn
+  * Sepal Length
+  * Sepal Width
+  * Petal Length
+  * Petal Width
+* 3 classes
 
-2. Run the program:
+  * Setosa
+  * Versicolor
+  * Virginica
+
+## Machine Learning Workflow
+
+1. Load the dataset
+2. Split data into training and testing sets
+3. Standardize feature values
+4. Train a KNN classifier
+5. Generate predictions
+6. Evaluate model performance
+7. Visualize results
+
+## Evaluation Metrics
+
+The model is evaluated using:
+
+* Accuracy
+* Precision
+* Recall
+* F1 Score
+* Confusion Matrix
+* Classification Report
+
+## Run the Project
 
 python AI_Project2.py
 
 ## Learning Outcomes
 
 * Data preprocessing
-* Supervised learning
-* Model training
+* Feature scaling
+* Supervised machine learning
+* Classification algorithms
 * Model evaluation
-* Classification using KNN
+* Data visualization
+
